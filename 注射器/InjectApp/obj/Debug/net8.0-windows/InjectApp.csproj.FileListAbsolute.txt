@@ -1,0 +1,17 @@
+C:\Users\renrui\Desktop\test\注射器\InjectApp\bin\Debug\net8.0-windows\InjectApp.exe
+C:\Users\renrui\Desktop\test\注射器\InjectApp\bin\Debug\net8.0-windows\InjectApp.deps.json
+C:\Users\renrui\Desktop\test\注射器\InjectApp\bin\Debug\net8.0-windows\InjectApp.runtimeconfig.json
+C:\Users\renrui\Desktop\test\注射器\InjectApp\bin\Debug\net8.0-windows\InjectApp.dll
+C:\Users\renrui\Desktop\test\注射器\InjectApp\bin\Debug\net8.0-windows\InjectApp.pdb
+C:\Users\renrui\Desktop\test\注射器\InjectApp\obj\Debug\net8.0-windows\InjectApp.Form1.resources
+C:\Users\renrui\Desktop\test\注射器\InjectApp\obj\Debug\net8.0-windows\InjectApp.csproj.GenerateResource.cache
+C:\Users\renrui\Desktop\test\注射器\InjectApp\obj\Debug\net8.0-windows\InjectApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\renrui\Desktop\test\注射器\InjectApp\obj\Debug\net8.0-windows\InjectApp.AssemblyInfoInputs.cache
+C:\Users\renrui\Desktop\test\注射器\InjectApp\obj\Debug\net8.0-windows\InjectApp.AssemblyInfo.cs
+C:\Users\renrui\Desktop\test\注射器\InjectApp\obj\Debug\net8.0-windows\InjectApp.csproj.CoreCompileInputs.cache
+C:\Users\renrui\Desktop\test\注射器\InjectApp\obj\Debug\net8.0-windows\InjectApp.dll
+C:\Users\renrui\Desktop\test\注射器\InjectApp\obj\Debug\net8.0-windows\refint\InjectApp.dll
+C:\Users\renrui\Desktop\test\注射器\InjectApp\obj\Debug\net8.0-windows\InjectApp.pdb
+C:\Users\renrui\Desktop\test\注射器\InjectApp\obj\Debug\net8.0-windows\InjectApp.genruntimeconfig.cache
+C:\Users\renrui\Desktop\test\注射器\InjectApp\obj\Debug\net8.0-windows\ref\InjectApp.dll
+C:\Users\renrui\Desktop\test\注射器\InjectApp\obj\Debug\net8.0-windows\InjectApp.FmChoseProcess.resources
