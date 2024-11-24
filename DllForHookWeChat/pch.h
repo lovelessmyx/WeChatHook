@@ -13,5 +13,7 @@ void InstallShowLogHook();
 void RemoveShowLogHook();
 void CreateSharedMemory();
 void OutputPointerValueToSharedMemory(DWORD64 raxPointer);
+void WriteAddressToNamePipe(DWORD64 raxPointer);
+void StartWorkerThread();
 
 #endif //PCH_H

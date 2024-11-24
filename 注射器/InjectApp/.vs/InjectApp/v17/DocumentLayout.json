@@ -1,26 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\renrui\\Desktop\\test\\\u6CE8\u5C04\u5668\\InjectApp\\",
+  "WorkspaceRootPath": "D:\\WeChatHookGitHub\\WeChatHook\\\u6CE8\u5C04\u5668\\InjectApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E266CA4C-F29A-4584-ABF9-6FAE68EB6E4F}|InjectApp.csproj|c:\\users\\renrui\\desktop\\test\\\u6CE8\u5C04\u5668\\injectapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E266CA4C-F29A-4584-ABF9-6FAE68EB6E4F}|InjectApp.csproj|D:\\WeChatHookGitHub\\WeChatHook\\\u6CE8\u5C04\u5668\\InjectApp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E266CA4C-F29A-4584-ABF9-6FAE68EB6E4F}|InjectApp.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E266CA4C-F29A-4584-ABF9-6FAE68EB6E4F}|InjectApp.csproj|C:\\Users\\renrui\\Desktop\\test\\\u6CE8\u5C04\u5668\\InjectApp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E266CA4C-F29A-4584-ABF9-6FAE68EB6E4F}|InjectApp.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E266CA4C-F29A-4584-ABF9-6FAE68EB6E4F}|InjectApp.csproj|d:\\wechathookgithub\\wechathook\\\u6CE8\u5C04\u5668\\injectapp\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E266CA4C-F29A-4584-ABF9-6FAE68EB6E4F}|InjectApp.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E266CA4C-F29A-4584-ABF9-6FAE68EB6E4F}|InjectApp.csproj|c:\\users\\renrui\\desktop\\test\\\u6CE8\u5C04\u5668\\injectapp\\injecthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E266CA4C-F29A-4584-ABF9-6FAE68EB6E4F}|InjectApp.csproj|d:\\wechathookgithub\\wechathook\\\u6CE8\u5C04\u5668\\injectapp\\injecthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E266CA4C-F29A-4584-ABF9-6FAE68EB6E4F}|InjectApp.csproj|solutionrelative:injecthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E266CA4C-F29A-4584-ABF9-6FAE68EB6E4F}|InjectApp.csproj|C:\\Users\\renrui\\Desktop\\test\\\u6CE8\u5C04\u5668\\InjectApp\\global.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E266CA4C-F29A-4584-ABF9-6FAE68EB6E4F}|InjectApp.csproj|solutionrelative:global.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E266CA4C-F29A-4584-ABF9-6FAE68EB6E4F}|InjectApp.csproj|D:\\WeChatHookGitHub\\WeChatHook\\\u6CE8\u5C04\u5668\\InjectApp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E266CA4C-F29A-4584-ABF9-6FAE68EB6E4F}|InjectApp.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E266CA4C-F29A-4584-ABF9-6FAE68EB6E4F}|InjectApp.csproj|C:\\Users\\renrui\\Desktop\\test\\\u6CE8\u5C04\u5668\\InjectApp\\fmprocess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E266CA4C-F29A-4584-ABF9-6FAE68EB6E4F}|InjectApp.csproj|D:\\WeChatHookGitHub\\WeChatHook\\\u6CE8\u5C04\u5668\\InjectApp\\fmprocess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E266CA4C-F29A-4584-ABF9-6FAE68EB6E4F}|InjectApp.csproj|solutionrelative:fmprocess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E266CA4C-F29A-4584-ABF9-6FAE68EB6E4F}|InjectApp.csproj|D:\\WeChatHookGitHub\\WeChatHook\\\u6CE8\u5C04\u5668\\InjectApp\\global.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E266CA4C-F29A-4584-ABF9-6FAE68EB6E4F}|InjectApp.csproj|solutionrelative:global.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,13 +50,26 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "D:\\WeChatHookGitHub\\WeChatHook\\\u6CE8\u5C04\u5668\\InjectApp\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "D:\\WeChatHookGitHub\\WeChatHook\\\u6CE8\u5C04\u5668\\InjectApp\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAADwvzYAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T09:33:15.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\renrui\\Desktop\\test\\\u6CE8\u5C04\u5668\\InjectApp\\Form1.cs",
+              "DocumentMoniker": "D:\\WeChatHookGitHub\\WeChatHook\\\u6CE8\u5C04\u5668\\InjectApp\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\renrui\\Desktop\\test\\\u6CE8\u5C04\u5668\\InjectApp\\Form1.cs",
+              "ToolTip": "D:\\WeChatHookGitHub\\WeChatHook\\\u6CE8\u5C04\u5668\\InjectApp\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAnwA8AAAAiAAAA",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAcwE4AAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-22T10:08:22.99Z",
               "EditorCaption": ""
@@ -61,22 +78,22 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "InjectHelper.cs",
-              "DocumentMoniker": "C:\\Users\\renrui\\Desktop\\test\\\u6CE8\u5C04\u5668\\InjectApp\\InjectHelper.cs",
+              "DocumentMoniker": "D:\\WeChatHookGitHub\\WeChatHook\\\u6CE8\u5C04\u5668\\InjectApp\\InjectHelper.cs",
               "RelativeDocumentMoniker": "InjectHelper.cs",
-              "ToolTip": "C:\\Users\\renrui\\Desktop\\test\\\u6CE8\u5C04\u5668\\InjectApp\\InjectHelper.cs",
+              "ToolTip": "D:\\WeChatHookGitHub\\WeChatHook\\\u6CE8\u5C04\u5668\\InjectApp\\InjectHelper.cs",
               "RelativeToolTip": "InjectHelper.cs",
-              "ViewState": "AQIAAHQAAAAAAAAAAAAkwIUAAABBAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAQwIEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-13T01:45:46.15Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Global.cs",
-              "DocumentMoniker": "C:\\Users\\renrui\\Desktop\\test\\\u6CE8\u5C04\u5668\\InjectApp\\Global.cs",
+              "DocumentMoniker": "D:\\WeChatHookGitHub\\WeChatHook\\\u6CE8\u5C04\u5668\\InjectApp\\Global.cs",
               "RelativeDocumentMoniker": "Global.cs",
-              "ToolTip": "C:\\Users\\renrui\\Desktop\\test\\\u6CE8\u5C04\u5668\\InjectApp\\Global.cs",
+              "ToolTip": "D:\\WeChatHookGitHub\\WeChatHook\\\u6CE8\u5C04\u5668\\InjectApp\\Global.cs",
               "RelativeToolTip": "Global.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAADwvwkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -85,11 +102,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Form1.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "C:\\Users\\renrui\\Desktop\\test\\\u6CE8\u5C04\u5668\\InjectApp\\Form1.cs",
+              "DocumentMoniker": "D:\\WeChatHookGitHub\\WeChatHook\\\u6CE8\u5C04\u5668\\InjectApp\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\renrui\\Desktop\\test\\\u6CE8\u5C04\u5668\\InjectApp\\Form1.cs [\u8BBE\u8BA1]",
+              "ToolTip": "D:\\WeChatHookGitHub\\WeChatHook\\\u6CE8\u5C04\u5668\\InjectApp\\Form1.cs [\u8BBE\u8BA1]",
               "RelativeToolTip": "Form1.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-13T01:45:40.446Z",
@@ -99,9 +116,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "FmProcess.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "C:\\Users\\renrui\\Desktop\\test\\\u6CE8\u5C04\u5668\\InjectApp\\FmProcess.cs",
+              "DocumentMoniker": "D:\\WeChatHookGitHub\\WeChatHook\\\u6CE8\u5C04\u5668\\InjectApp\\FmProcess.cs",
               "RelativeDocumentMoniker": "FmProcess.cs",
-              "ToolTip": "C:\\Users\\renrui\\Desktop\\test\\\u6CE8\u5C04\u5668\\InjectApp\\FmProcess.cs [\u8BBE\u8BA1]",
+              "ToolTip": "D:\\WeChatHookGitHub\\WeChatHook\\\u6CE8\u5C04\u5668\\InjectApp\\FmProcess.cs [\u8BBE\u8BA1]",
               "RelativeToolTip": "FmProcess.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-12T18:11:29.817Z",

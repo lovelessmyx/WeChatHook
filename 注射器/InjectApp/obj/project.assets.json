@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\renrui\\Desktop\\test\\注射器\\InjectApp\\InjectApp.csproj",
+      "projectUniqueName": "D:\\WeChatHookGitHub\\WeChatHook\\注射器\\InjectApp\\InjectApp.csproj",
       "projectName": "InjectApp",
-      "projectPath": "C:\\Users\\renrui\\Desktop\\test\\注射器\\InjectApp\\InjectApp.csproj",
+      "projectPath": "D:\\WeChatHookGitHub\\WeChatHook\\注射器\\InjectApp\\InjectApp.csproj",
       "packagesPath": "C:\\Users\\renrui\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\renrui\\Desktop\\test\\注射器\\InjectApp\\obj\\",
+      "outputPath": "D:\\WeChatHookGitHub\\WeChatHook\\注射器\\InjectApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\VSSDK\\NuGetPackages"

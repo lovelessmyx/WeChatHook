@@ -158,11 +158,11 @@
             // 
             // button1
             // 
-            button1.Location = new Point(347, 176);
+            button1.Location = new Point(99, 247);
             button1.Name = "button1";
-            button1.Size = new Size(94, 82);
+            button1.Size = new Size(94, 30);
             button1.TabIndex = 12;
-            button1.Text = "button1";
+            button1.Text = "读共享内存";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click_1;
             // 
@@ -170,7 +170,7 @@
             // 
             AutoScaleDimensions = new SizeF(9F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(406, 258);
+            ClientSize = new Size(406, 289);
             Controls.Add(button1);
             Controls.Add(lab_address);
             Controls.Add(label4);

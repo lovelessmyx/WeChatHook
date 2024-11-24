@@ -14,7 +14,8 @@ BYTE getInfoHookOriginalBytes[12];              // 保存原始字节，用于恢复hook
 
 void GetInfoHookFuncForOutRaxValue(DWORD64 raxValue)
 {
-    OutputPointerValueToSharedMemory(raxValue);
+    //OutputPointerValueToSharedMemory(raxValue);
+    WriteAddressToNamePipe(raxValue);
     return;
 }
 

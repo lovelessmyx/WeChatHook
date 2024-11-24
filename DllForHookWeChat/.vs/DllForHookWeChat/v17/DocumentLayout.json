@@ -1,14 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\renrui\\Desktop\\test\\DLLProject\\DllForHookWeChat\\",
+  "WorkspaceRootPath": "D:\\WeChatHookGitHub\\WeChatHook\\DllForHookWeChat\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BC316A5A-CF5F-4F29-9275-287B388FE22B}|DllForHookWeChat.vcxproj|C:\\Users\\renrui\\Desktop\\test\\DLLProject\\DllForHookWeChat\\dllmain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{BC316A5A-CF5F-4F29-9275-287B388FE22B}|DllForHookWeChat.vcxproj|D:\\WeChatHookGitHub\\WeChatHook\\DllForHookWeChat\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BC316A5A-CF5F-4F29-9275-287B388FE22B}|DllForHookWeChat.vcxproj|solutionrelative:pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC316A5A-CF5F-4F29-9275-287B388FE22B}|DllForHookWeChat.vcxproj|D:\\WeChatHookGitHub\\WeChatHook\\DllForHookWeChat\\Tools.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BC316A5A-CF5F-4F29-9275-287B388FE22B}|DllForHookWeChat.vcxproj|solutionrelative:Tools.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC316A5A-CF5F-4F29-9275-287B388FE22B}|DllForHookWeChat.vcxproj|D:\\WeChatHookGitHub\\WeChatHook\\DllForHookWeChat\\dllmain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BC316A5A-CF5F-4F29-9275-287B388FE22B}|DllForHookWeChat.vcxproj|solutionrelative:dllmain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC316A5A-CF5F-4F29-9275-287B388FE22B}|DllForHookWeChat.vcxproj|C:\\Users\\renrui\\Desktop\\test\\DLLProject\\DllForHookWeChat\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BC316A5A-CF5F-4F29-9275-287B388FE22B}|DllForHookWeChat.vcxproj|solutionrelative:pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{BC316A5A-CF5F-4F29-9275-287B388FE22B}|DllForHookWeChat.vcxproj|D:\\WeChatHookGitHub\\WeChatHook\\DllForHookWeChat\\HookLibrary.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BC316A5A-CF5F-4F29-9275-287B388FE22B}|DllForHookWeChat.vcxproj|solutionrelative:HookLibrary.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,26 +42,52 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HookLibrary.cpp",
+              "DocumentMoniker": "D:\\WeChatHookGitHub\\WeChatHook\\DllForHookWeChat\\HookLibrary.cpp",
+              "RelativeDocumentMoniker": "HookLibrary.cpp",
+              "ToolTip": "D:\\WeChatHookGitHub\\WeChatHook\\DllForHookWeChat\\HookLibrary.cpp",
+              "RelativeToolTip": "HookLibrary.cpp",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-23T09:29:13.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Tools.cpp",
+              "DocumentMoniker": "D:\\WeChatHookGitHub\\WeChatHook\\DllForHookWeChat\\Tools.cpp",
+              "RelativeDocumentMoniker": "Tools.cpp",
+              "ToolTip": "D:\\WeChatHookGitHub\\WeChatHook\\DllForHookWeChat\\Tools.cpp",
+              "RelativeToolTip": "Tools.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-23T09:22:09.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "pch.h",
-              "DocumentMoniker": "C:\\Users\\renrui\\Desktop\\test\\DLLProject\\DllForHookWeChat\\pch.h",
+              "DocumentMoniker": "D:\\WeChatHookGitHub\\WeChatHook\\DllForHookWeChat\\pch.h",
               "RelativeDocumentMoniker": "pch.h",
-              "ToolTip": "C:\\Users\\renrui\\Desktop\\test\\DLLProject\\DllForHookWeChat\\pch.h",
+              "ToolTip": "D:\\WeChatHookGitHub\\WeChatHook\\DllForHookWeChat\\pch.h",
               "RelativeToolTip": "pch.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-23T07:36:28.151Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "dllmain.cpp",
-              "DocumentMoniker": "C:\\Users\\renrui\\Desktop\\test\\DLLProject\\DllForHookWeChat\\dllmain.cpp",
+              "DocumentMoniker": "D:\\WeChatHookGitHub\\WeChatHook\\DllForHookWeChat\\dllmain.cpp",
               "RelativeDocumentMoniker": "dllmain.cpp",
-              "ToolTip": "C:\\Users\\renrui\\Desktop\\test\\DLLProject\\DllForHookWeChat\\dllmain.cpp",
+              "ToolTip": "D:\\WeChatHookGitHub\\WeChatHook\\DllForHookWeChat\\dllmain.cpp",
               "RelativeToolTip": "dllmain.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAbAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-23T07:36:19.044Z",
               "EditorCaption": ""

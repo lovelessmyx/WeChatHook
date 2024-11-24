@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InjectApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a031d5d072efc0bb647fe4ce4a81bd1569af9f1")]
 [assembly: System.Reflection.AssemblyProductAttribute("InjectApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InjectApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

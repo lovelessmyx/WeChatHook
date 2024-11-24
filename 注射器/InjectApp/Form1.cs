@@ -75,7 +75,8 @@ namespace InjectApp
             while (true)
             {
                 string str = namedPipesHelper.Read();
-                Console.WriteLine(str);
+                //Console.WriteLine(str);
+                MessageBox.Show(str);
             }
         }
 
