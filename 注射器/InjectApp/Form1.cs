@@ -11,6 +11,10 @@ namespace InjectApp
         [DllImport("kernel32.dll")]
         public static extern bool ReadProcessMemory(IntPtr hProcess, IntPtr lpBaseAddress, byte[] lpBuffer, int dwSize, out int lpNumberOfBytesRead);
 
+
+        private WechatLogForm wechatLogForm;
+        private Thread readShareMemoryThread;
+
         public Form1()
         {
             InitializeComponent();
@@ -24,6 +28,14 @@ namespace InjectApp
                 textBox1.Enabled = true;
             };
             //textBox1.Enabled = true;
+
+
+            // 创建并显示日志的子窗体
+            wechatLogForm = new WechatLogForm();
+            wechatLogForm.Hide();
+            
+
+
         }
         FmChoseProcess fp = null;
         InjectHelper inject = null;
@@ -56,8 +68,8 @@ namespace InjectApp
         {
 
             //开启命名通道接受信息
-            Thread thread = new Thread(readMsg);
-            thread.Start();
+            //Thread thread = new Thread(readMsg);
+            //thread.Start();
 
             //注入
             inject = new InjectHelper(int.Parse(this.text_process_id.Text), this.textBox1.Text);
@@ -76,7 +88,8 @@ namespace InjectApp
             {
                 string str = namedPipesHelper.Read();
                 //Console.WriteLine(str);
-                MessageBox.Show(str);
+                if(str != null)
+                  MessageBox.Show(str);
             }
         }
 
@@ -114,40 +127,52 @@ namespace InjectApp
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            try
+            wechatLogForm.Show();
+            //这里开启一个线程，并且启动轮询读取信息
+            readShareMemoryThread = new Thread(UpdateChildFormTextBox);
+            readShareMemoryThread.IsBackground = true; // 设置为后台线程
+            readShareMemoryThread.Start();
+        }
+        private void UpdateChildFormTextBox()
+        {
+            string resultString = "", lastMsgStr = "";
+            while (true) // 循环更新
             {
-                // 打开共享内存对象
-                using (MemoryMappedFile mmf = MemoryMappedFile.OpenExisting("RAXSharedMemory"))
+                try
                 {
-                    // 创建视图来读取共享内存中的数据
-                    using (MemoryMappedViewAccessor accessor = mmf.CreateViewAccessor(0,256))
+                    // 打开共享内存对象
+                    using (MemoryMappedFile mmf = MemoryMappedFile.OpenExisting("RAXSharedMemory"))
                     {
-                        // 读取共享内存中的数据
-                        byte[] buffer = new byte[256];
-                        accessor.ReadArray(0, buffer, 0, buffer.Length);
-
-                        // 查找字符串的结束符位置 (NULL 字符)
-                        int nullIndex = Array.IndexOf(buffer, (byte)0);
-                        if (nullIndex >= 0)
+                        // 创建视图来读取共享内存中的数据
+                        using (MemoryMappedViewAccessor accessor = mmf.CreateViewAccessor(0, 256))
                         {
-                            // 将字节数组转换为字符串
-                            string resultString = Encoding.UTF8.GetString(buffer, 0, nullIndex);
-                            //Console.WriteLine($"Read string: {resultString}");
-                            MessageBox.Show(resultString);
-                        }
-                        else
-                        {
-                            Console.WriteLine("Failed to find the end of the string in shared memory.");
-                        }
+                            // 读取共享内存中的数据
+                            byte[] buffer = new byte[256];
+                            accessor.ReadArray(0, buffer, 0, buffer.Length);
 
-
+                            // 查找字符串的结束符位置 (NULL 字符)
+                            int nullIndex = Array.IndexOf(buffer, (byte)0);
+                            if (nullIndex >= 0)
+                            {
+                                // 将字节数组转换为字符串
+                                resultString = Encoding.UTF8.GetString(buffer, 0, nullIndex);
+                            }
+                        }
                     }
                 }
-            }
-            catch (Exception ex)
-            {
-                // 处理错误并输出错误信息
-                Console.WriteLine("Error: " + ex.Message);
+                catch (Exception ex)
+                {
+                    //Console.WriteLine("Error: " + ex.Message);
+                }
+
+
+                if (lastMsgStr != resultString)
+                {
+                    lastMsgStr = resultString;
+                    wechatLogForm.UpdateTextBoxSafe(resultString + "\r\n");
+                }
+
+                //Thread.Sleep(1000); // 模拟工作间隔（每秒更新一次）
             }
         }
     }

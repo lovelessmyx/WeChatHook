@@ -33,3 +33,4 @@ D:\WeChatHookGitHub\WeChatHook\注射器\InjectApp\obj\Debug\net8.0-windows\refi
 D:\WeChatHookGitHub\WeChatHook\注射器\InjectApp\obj\Debug\net8.0-windows\InjectApp.pdb
 D:\WeChatHookGitHub\WeChatHook\注射器\InjectApp\obj\Debug\net8.0-windows\InjectApp.genruntimeconfig.cache
 D:\WeChatHookGitHub\WeChatHook\注射器\InjectApp\obj\Debug\net8.0-windows\ref\InjectApp.dll
+D:\WeChatHookGitHub\WeChatHook\注射器\InjectApp\obj\Debug\net8.0-windows\InjectApp.WechatLogForm.resources

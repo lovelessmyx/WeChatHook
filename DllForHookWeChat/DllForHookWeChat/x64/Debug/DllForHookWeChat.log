@@ -2,7 +2,7 @@
   dllmain.cpp
   HookLibrary.cpp
   Tools.cpp
-D:\WeChatHookGitHub\WeChatHook\DllForHookWeChat\Tools.cpp(86,60): warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+D:\WeChatHookGitHub\WeChatHook\DllForHookWeChat\Tools.cpp(95,15): warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
   (编译源文件“/Tools.cpp”)
   
   正在生成代码...

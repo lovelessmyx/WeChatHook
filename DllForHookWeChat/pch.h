@@ -9,11 +9,15 @@
 
 // 添加要在此处预编译的标头
 #include "framework.h"
+#include <windows.h>
+#include <tchar.h>
+#include <iostream>
 void InstallShowLogHook();
 void RemoveShowLogHook();
 void CreateSharedMemory();
 void OutputPointerValueToSharedMemory(DWORD64 raxPointer);
-void WriteAddressToNamePipe(DWORD64 raxPointer);
-void StartWorkerThread();
+
+HANDLE ConnectToPipe();
+void WriteAddressToNamePipe(const char* message);
 
 #endif //PCH_H

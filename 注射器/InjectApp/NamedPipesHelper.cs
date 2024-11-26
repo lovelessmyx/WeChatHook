@@ -14,7 +14,7 @@ namespace InjectApp
         NamedPipeServerStream pipeServer;
         public NamedPipesHelper()
         {
-            pipeServer = new NamedPipeServerStream("HookServerPipe", PipeDirection.InOut);
+            pipeServer = new NamedPipeServerStream("HookServerPipe", PipeDirection.In);
             pipeServer.WaitForConnection();
         }
 
